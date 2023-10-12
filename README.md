@@ -1,6 +1,6 @@
 # AbutionGraph（时序图数据库）
 AbationGraph® is a time-series knowledge graph database for real-time OLAP。  
-AbationGraph - 一款面向时序多维关联数据分析（GraphOLAM）的图谱数据库系统，它提供大规模时序数据流端到端的自动聚合计算并更新历史数据，数据实时接入后立即查看到关联计算产生的结果。  
+AbationGraph - 一款面向时序多维关联数据流式分析（GraphOLAM）的知识图谱数据库，它提供大规模时序数据流端到端的自动聚合计算并立即更新存储，除传统图谱数据存储外，特别适用于指标系统建设、实时交互式数据分析、可视化大屏展现、IOT流式数据监测、拓扑数据动态行为计算、相同点边id的数据根据标签分类存储等等。
 
 ![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/248c8951-2c54-4720-9b26-8ab157ebb216)
 
