@@ -15,3 +15,5 @@ AbationGraph - 一款面向时序多维关联数据分析（GraphOLAM）的图�
 ![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/71353464-28ef-4c4c-9cb9-e4d23ea9c3df)
 
 ![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/b027a94b-8d6f-4ab2-8f3f-fbf3fcd4cee5)
+
+![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/7deab4ca-cf52-4a07-8ff7-f8cb53167417)
