@@ -14,7 +14,7 @@ AbutionGraph特性如下：
 2. Graph-HybridOLAP，动态聚合+静态图谱自定义存储
 3. Multi-Dimension，RDF图+属性图融合架构、自定义节点id、快速数据检索、数据打标分类管理
 4. 预计算模型，实体与关系都可以自动聚合，自定义自动计算分析的业务模型
-5. 原子级数据权限，API自带
+5. 原子级数据权限
 6. 亚秒级关联计算分析
 
 AbutionGraph适用场景如：
@@ -62,10 +62,6 @@ Schema schema = Schema
         Dimension.label("E|Battled", "战争")
            .property("time", Integer.class)
            .property("place", Geoshape.class)
-           .build(),
-        Dimension.label("Egg|BattledAggregation", "战争统计")
-           .property("totalTime", Integer.class, Agg.Sum())
-           .groupBy()
            .build(),
         Dimension.label("E|Pet", "宠物").build(),
         Dimension.label("E|Lives", "生活").property("reason", String.class).build()
