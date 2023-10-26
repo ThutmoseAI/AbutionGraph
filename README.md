@@ -6,9 +6,6 @@ AbationGraph使用Java/C++开发，支持Aremlin、Gremlin、GraphQL查询语法
 
 ![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/3ce3f784-5ed1-489b-a630-f5100e19319a)
 
-![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/535568ba-0c54-48d7-898e-34523dae4b29)
-
-
 AbutionGraph特性如下：
 1. 分布式高可用，支持万亿点边存储
 2. Graph-HybridOLAP，动态聚合+静态图谱自定义存储
@@ -28,6 +25,9 @@ AbutionGraph适用场景如：
    希望导入的实体与关系自动实现关联，而不是明确“点表/边表”必须一一具备，允许孤立点。此外，希望自动汇总一跳邻居节点信息如：出度入度、基数统计、百分位数等，实现复杂关联指标的即席查询。
 5. 子图隔离  
    希望在一个图谱中实现不同用户导入的数据仅自己可见，或授权可见，很适用于公安、政府、跨部门、多用户协作等场景。
+
+![image](https://github.com/ThutmoseAI/AbutionGraph/assets/8678397/535568ba-0c54-48d7-898e-34523dae4b29)
+
 
 ## 状态
 AbationGraph当前版本为v2.8.0，已经过多年大量的生产应用，数据库安装包下载地址如下：
