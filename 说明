@@ -1,0 +1,4 @@
+docsify serve abution-graph-doc
+
+代码高亮：npm install prismjs
+json支持：npm install jsonlint
